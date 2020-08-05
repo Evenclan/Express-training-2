@@ -66,7 +66,8 @@ class OrderTicketForm extends React.Component {
     const { updateSeat, updateTextField, updateNumberField, submitForm } = this;
     const { requests } = this.props;
     const { order, isError } = this.state;
-
+    console.log(requests);
+    // console.log('test');
     return (
       <Form className="order-ticket-form" onSubmit={submitForm}>
         <Row>
